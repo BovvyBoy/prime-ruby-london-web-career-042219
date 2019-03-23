@@ -1,7 +1,7 @@
 require_relative './spec_helper'
 require_relative '../prime.rb'
 
-def prime
+def prime?
   
 end
 
