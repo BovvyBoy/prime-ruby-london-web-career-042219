@@ -1,9 +1,17 @@
 require_relative './spec_helper'
 require_relative '../prime.rb'
 
-def prime? (numbers)
-  if numbers / numbers
-    
+def prime (numbers)
+  @nth_value = nth_value
+ for test_value in numbers do
+  if (@nth_value % test_value) == 0
+   puts ("#{@nth_value} is not divisible by #{numbers}")
+  else
+   puts ("This is not a prime number since this is divisible by #{test_value}")
+  break
+  end
+ end
+ end
 end
 
 
