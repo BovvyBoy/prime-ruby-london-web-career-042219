@@ -2,6 +2,7 @@ require_relative './spec_helper'
 require_relative '../prime.rb'
 
 def prime?
+  numbers = [1,2,4,7,8,9]
   
 end
 
